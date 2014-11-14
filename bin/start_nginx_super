@@ -1,0 +1,9 @@
+supervisorctl stop all
+rm /tmp/supervisor* -rf
+
+bin/mykill supervisord
+bin/mykill nginx
+
+supervisord -c /opt/app/server/etc/supervisord.conf
+
+

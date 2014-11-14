@@ -1,0 +1,8 @@
+#!/bin/bash
+str="aleserver"
+if [ $# == 0 ]
+then
+`ps -e| grep $str | sed  's/\(.\{6\}\).*/\1/' | xargs kill -9 `
+else
+`ps -e | grep $1 | sed  's/\(.\{6\}\).*/\1/' | xargs kill -9 `
+fi

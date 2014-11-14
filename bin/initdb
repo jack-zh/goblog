@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "initDB start"
+mysql -u root -proot --exec  "drop database aleserver;"
+mysql -u root -proot <  database.sql
+echo "init Done"

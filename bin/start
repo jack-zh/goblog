@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "start"
+
+sudo service mysql start
+
+./bin/mykill
+./bin/build.sh
+
+cd appbuild
+nohup ./aleserver &
+cd -
+
+echo "over"
+

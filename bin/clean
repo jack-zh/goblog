@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm dist -rf
+rm build -rf
+rm app.spec -rf
+rm appbuild -rf
+find ./ -name "nohup.out"  | xargs rm -rf
+find ./ -name "*.log"  | xargs rm -rf
+find ./ -name "*.pyc" | xargs rm -rf
