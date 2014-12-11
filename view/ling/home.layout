@@ -42,6 +42,7 @@
     {{Setting `c_footer_ga` | Html}}
 </footer>
 <script src="/static/js/home.js"></script>
+<a href="https://github.com/jack-zh"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/img/github_1.png" alt="Fork me on GitHub"></a>
 </body>
 </html>
 {{Html "<!-- thanks for theme Lingonberry(http://www.andersnoren.se/) for WordPress-->"}}
