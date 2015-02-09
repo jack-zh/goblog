@@ -6,3 +6,49 @@ code{
     background-color:#ddd;
     color:#c87654
 }
+#article-list {
+	margin-bottom: 24px
+}
+
+#article-list li {
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #ddd
+}
+
+#article-list li>* {
+	margin-right: 16px
+}
+
+#article-list li .time,#article-list li .comment {
+	font-family: Verdana,Tahoma,'微软雅黑','宋体',sans-serif;
+color: #999
+}
+
+#article-list li .comment {
+color: #649462
+}
+
+#article-list li .comment .fa {
+	margin-right: 6px
+}
+
+#article-list li .is-comment {
+color: #ff4447
+}
+
+#article-list li .is-comment .fa {
+	margin-right: 6px
+}
+
+#article-list li .del,#article-list li .edit {
+opacity: 0
+}
+
+#article-list li:hover .del,#article-list li:hover .edit {
+opacity: 1
+}
+
+#article-list li:first-child h4 {
+	padding-top: 0
+}
