@@ -3,9 +3,21 @@ section.content_index {
     overflow:hidden;
 }
 code{
-    background-color:#ddd;
-    color:#c87654
+    background-color: #ddd;
+    color:#c87654;
 }
+
+pre code{
+    background-color: #ddd;
+    color:#c87654;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 1px 10px rgba(0,0,0,.3),0 1px 0 rgba(255,255,255,.1),0 -1px 0 rgba(0,0,0,.5);
+    -moz-box-shadow: inset 0 1px 10px rgba(0,0,0,.3),0 1px 0 rgba(255,255,255,.1),0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: inset 0 1px 10px rgba(0,0,0,.3),0 1px 0 rgba(255,255,255,.1),0 -1px 0 rgba(0,0,0,.5);
+}
+
 #article-list {
 	margin-bottom: 24px
 }
