@@ -789,3 +789,13 @@ html,body {
 	padding:0 16px
 }
 }
+
+.text-center .views{
+	font-size:13px;
+}
+.text-center .time{
+	font-size:13px;
+}
+.text-center .comments{
+	font-size:13px;
+}

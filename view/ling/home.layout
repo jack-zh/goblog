@@ -8,7 +8,7 @@
     <title>{{if .Title}}{{.Title}} - {{end}}{{Setting "site_title"}}</title>
     <meta name="keywords" content="{{Setting `site_keywords`}}"/>
     <meta name="description" content="{{Setting `site_description`}}"/>
-    <meta name="generator" content="FxhGo Blog" />
+    <meta name="generator" content="ZZH Blog" />
     <link rel="stylesheet" href="/static/css/style.css"/>
     <link rel="stylesheet" href="/static/css/ling.css"/>
     <link rel="stylesheet" href="http://libs.baidu.com/fontawesome/4.0.3/css/font-awesome.min.css"/>
