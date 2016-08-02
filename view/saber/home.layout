@@ -41,6 +41,7 @@
             <a href="/feed/">Feed</a>&nbsp;&nbsp;&nbsp;&nbsp;
             Proudly Powered by Golang
         </span>
+    <p><span><a href="http://www.miitbeian.gov.cn/" gtarget="_blank">鄂ICP备14000142号</a></span></p>
     </div>
     <a id="go-top" href="#" class="lbl hide lbl-blue" title="回到顶部">Top</a>
     {{Setting `c_footer_ga` | Html}}

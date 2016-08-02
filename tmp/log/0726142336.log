@@ -1,0 +1,26 @@
+template: index.html:3:28: executing "index.html" at <.Status>: can't evaluate field Status in type *model.Content
+goroutine 4565 [running]:
+runtime/debug.Stack(0xc420059672, 0xc42069b748, 0x1)
+	/opt/lib/go/src/runtime/debug/stack.go:24 +0x79
+github.com/jack-zh/zgoblog/app.init.1.func2(0xc42069c000)
+	/root/gowork/src/github.com/jack-zh/zgoblog/app/app.go:80 +0xd4
+github.com/jack-zh/zgoblog/fweb.(*App).handler.func1(0xc42069bc58, 0xc4200128c0)
+	/root/gowork/src/github.com/jack-zh/zgoblog/fweb/app.go:65 +0x249
+panic(0x7a7560, 0xc4208d2940)
+	/opt/lib/go/src/runtime/panic.go:458 +0x243
+github.com/jack-zh/zgoblog/fweb.(*Context).Render(0xc42069c000, 0xc42033c770, 0xd, 0xc4204de2d0)
+	/root/gowork/src/github.com/jack-zh/zgoblog/fweb/context.go:366 +0x329
+github.com/jack-zh/zgoblog/app/handler.(*themeContext).Render(0xc42069bb70, 0x7ea0d3, 0x5, 0xc4204de2d0)
+	/root/gowork/src/github.com/jack-zh/zgoblog/app/handler/func.go:59 +0xbf
+github.com/jack-zh/zgoblog/app/handler.TagArticles(0xc42069c000)
+	/root/gowork/src/github.com/jack-zh/zgoblog/app/handler/home.go:81 +0x647
+github.com/jack-zh/zgoblog/fweb.(*App).handler(0xc4200128c0, 0xaad800, 0xc4200540d0, 0xc4203940f0)
+	/root/gowork/src/github.com/jack-zh/zgoblog/fweb/app.go:113 +0x3dc
+github.com/jack-zh/zgoblog/fweb.(*App).ServeHTTP(0xc4200128c0, 0xaad800, 0xc4200540d0, 0xc4203940f0)
+	/root/gowork/src/github.com/jack-zh/zgoblog/fweb/app.go:139 +0x49
+net/http.serverHandler.ServeHTTP(0xc4203f2e00, 0xaad800, 0xc4200540d0, 0xc4203940f0)
+	/opt/lib/go/src/net/http/server.go:2203 +0x7d
+net/http.(*conn).serve(0xc420058280, 0xaadf80, 0xc4200126c0)
+	/opt/lib/go/src/net/http/server.go:1580 +0x4b7
+created by net/http.(*Server).Serve
+	/opt/lib/go/src/net/http/server.go:2296 +0x447

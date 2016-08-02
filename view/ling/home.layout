@@ -38,6 +38,7 @@
     <div class="container960 clear">
         <span class="left">Go © 2014 All rights reserved.</span>
         <span class="right"> . Proudly Powered by <a href="https://github.com/jack-zh/GoBlogStatic" target="_blank">Golang</a>.</span>
+    <p><span><a href="http://www.miitbeian.gov.cn/" gtarget="_blank">鄂ICP备14000142号</a></span></p>
     </div>
     <a id="go-top" href="#" class="lbl hide lbl-blue" title="回到顶部"><i class="fa fa-arrow-up fa-lg"></i></a>
     {{Setting `c_footer_ga` | Html}}
