@@ -69,6 +69,11 @@
                "type": "dir",
                "contents": [
                   {
+                     "name": "Son",
+                     "type": "text",
+                     "contents": "我爱你，么么哒"
+                  },
+                  {
                      "name": "Daughter",
                      "type": "text",
                      "contents": "我爱你，么么哒"

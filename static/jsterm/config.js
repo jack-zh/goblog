@@ -1,6 +1,6 @@
 var CONFIG = CONFIG || {
-	python_version: 'Python 2.7.9',
-	gcc_version: '4.8.2',
+	python_version: 'Python 2.7.12',
+	gcc_version: '5.4.0',
 	sys_platform: 'linux2',
 	username: 'jack',
 	ipython: false
@@ -11,7 +11,7 @@ var ContactInformation = {
 	email: {
 		showStr: "邮件地址",
 		type: "lnk",
-		info: "由于gmail的频繁抽风(F**k GFW)，换成了万恶的QQ邮箱",
+		info: "由于gmail的频繁抽风(F**k GFW)，换成了QQ邮箱",
 		value: 'zzh.coder@qq.com'
 	},
 	weibo: {
@@ -23,7 +23,7 @@ var ContactInformation = {
 	github: {
 		showStr: "Github",
 		type: "lnk",
-		info: "自己特别喜欢逛github和分享自己的项目,就跟老婆逛淘宝的感觉一样样的, 发现了好玩的项目就忍不住<strong>偷看</strong>人间的源码。",
+		info: "自己特别喜欢逛github和分享自己的项目,就跟老婆逛淘宝的感觉一样样的, 发现了好玩的项目就忍不住<strong>偷看</strong>别人的源码。",
 		value: 'http://github.com/jack-zh'
 	},
 	blog: {
@@ -42,9 +42,11 @@ var ContactInformation = {
 
 var AboutMeStr = '***************************************************************************************<br>'+
           '我的网络ID为 jack.z。现在居住地<i class="fa fa-map-marker">武汉</i><br>'+
-          '目前是一名pythoner。之前一直用c做嵌入式的网络设备开发。后来因为换工作开始使用python来做web app。<br>'+
+          '目前是一名pythoner。在一家安全厂商做安全云平台相关工作，</br>' + 
+          '之前一直用c做嵌入式的网络设备开发。后来因为换工作开始使用python来做web app。<br>'+
           '从此喜欢上了python的简捷,快速和<span class="prettytext">There is only one way to do it</span> 的编程思想。<br>'+
-          '目前的技术栈是 python, C, tornado， flask, mongodb， redis， nodejs， golang, mysql, git, linux。网站部署常用的是supervisord+nginx+git<br>'+
+          '目前的技术栈是:python, Linux C, Lua, 安全, Python Web， golang, mysql. </br>' +
+           '网站部署用的是supervisord+nginx+git<br>'+
           '这个是我的个人网站。当然你可以从<a href="http://github.com/jack-zh" target="_blank">GitHub</a>上面看到我之前写的一些乱七八糟的项目。<br>'+
           '你可以通过邮件联系我 <a href="mailto:zzh.coder@qq.com">zzh.coder#qq.com</a> 或者QQ: 715443050 或者<a target="_blank" href="'+ 'http://weibo.com/zzhcoder'  +'">微博</a><br>'+
           '最后你可以试着输入 <span class="prettytext">jack.__doc__</span> 看看这个module有哪些属性和方法以便您更好的了解和使用它<br>'+

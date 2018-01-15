@@ -236,7 +236,7 @@ function writeContactInformationDoc(){
   var writeStr = "";
   for(ci in ContactInformation){
     var dict  = ContactInformation[ci];
-    if(ci == "email"){
+    if(ci == "email()"){
       writeStr += dict['showStr'] + "\t:<span class='pythonmethod'>method</span>\t\t"+ CONFIG.username +"."+ ci +"()<br>";
     }else{
       writeStr += dict['showStr'] + "\t:<span class='pythonattr'>attribute</span>\t"+ CONFIG.username +"."+ ci +"<br>";
